@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EunJin-portfolio-site</title>
+    <!-- font CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-round.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> 
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- 비행깅 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+    <script src="js/TweenLite.min.js"></script>
+    <script src="js/TimelineLite.min.js"></script>
+    <script src="js/CSSPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- progress bar -->
+    <script src="js/progressbar.min.js"></script>
+    <!-- Swiper Js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- JS -->
+    <script defer src="js/marquee.js"></script>
+    <script defer src="js/swiper.js"></script>
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">
+                <a href="#"><img src="image/로고-은진.png" alt=""></a>
+            </h1>
+            <nav>
+                <ul>
+                    <li class="on"><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <ul class="sns">
+                <li class="insta">
+                    <a href="instagram"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li class="blog">
+                    <a href="blog2"><i class="fa-solid fa-blog"></i></a>
+                </li>
+                <li class="mail">
+                    <a href="mail2"><i class="fa-solid fa-envelope"></i></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="container">           
+                <h2>Welcome To My Site</h2>
+                <div class="scroll-down">
+                    <div class="scroll"></div>
+                    <div class="arrow">
+                        <div class="material-symbols-outlined">
+                        arrow_downward</div>
+                    </div>
+                </div>                
+            </div>
+        </section>
+        <!-- about -->
+        <section id="about">            
+            <!-- scroll -->
+            <div class="cover">
+                <h3 class="full">
+                    ABOUT&nbsp;&nbsp;&nbsp;&nbsp;<span>ABOUT</span>&nbsp;&nbsp;&nbsp;&nbsp;ABOUT&nbsp;&nbsp;&nbsp;&nbsp;<span>ABOUT</span>&nbsp;&nbsp;&nbsp;&nbsp;ABOUT&nbsp;&nbsp;&nbsp;&nbsp;<span>ABOUT</span>
+                </h3>                            
+            </div>
+            <div class="container">                
+                <div class="about-title">
+                    <h1>“I Like What I Do”</h1>
+                </div>
+                <div class="about-me">
+                    <div class="about-img">
+                        <img src="image/사람.jpg" alt="">
+                    </div>
+                    <div class="about-content">
+                        <div class="about-intro">
+                            <p>좋아하는 것은 끝까지 파고드는<br>
+                            집요한 성격을 가진 영상 제작자
+                            <strong>“김은진”</strong> 입니다.<br>
+                            좋아하는 걸 직접 만들고 글을 쓰며<br>
+                            사람들과 공유하는 것을 좋아해요.</p>
+                        </div>
+                        <div class="about-intro2">
+                            <p>대학생때부터 5년간 블로그를 통해 꾸준히 글을 쓰고<br>
+                            마케팅 활동을 하다가 유튜브 영상 제작을 통한 마케팅에<br>
+                            관심을 갖게 되어 영상 제작을 시작하였습니다. </p>
+                        </div>
+                        <div class="about-intro3">
+                                <p> 예술성이 담긴 영상도, 마케팅을 위한 영상도<br>
+                                재치있게 , 쉽게, 특별하게 만들어내는 것이
+                                목표입니다. </p>
+                        </div>
+                    </div>
+                </div>   
+                <div class="about-info">
+                    <div class="skills">
+                        <div class="skill">
+                            <div class="skill-title">
+                                <h3>PROFILES</h3>
+                                <div class="skill-icon"><img src="image/plus.png" alt=""></div>
+                            </div>
+                            <div class="item">
+                                <div class="question">
+                                    <h4>Name</h4>
+                                    <h4>Birth</h4>
+                                    <h4>Phone</h4>
+                                    <h4>Edu</h4>
+                                </div>
+                                <div class="answer">
+                                    <p>김은진</p>
+                                    <p>1998. 04. 16</p>
+                                    <p>010-8696-9593</p>
+                                    <p>영남대학교 회계세무학과</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-title">
+                                <h3>SKILLS</h3>
+                                <div class="skill-icon"><img src="image/plus.png" alt=""></div>  
+                            </div>
+                            <div class="item">
+                                <div class="progress" id="aftereffect">
+                                <p>AFTER EFFECT</p>
+                                <img class="overlay" src="image/ae2.png">
+                                </div>
+                                <div class="progress" id="premier-pro">
+                                    <p>PREMIER-PRO</p>
+                                    <img class="overlay" src="image/pr2.png">
+                                </div>
+                                <div class="progress" id="web">
+                                    <p>WEB</p>
+                                    <img class="overlay" src="image/web2.png">
+                                </div>
+                                <div class="progress" id="cinema-4D">
+                                    <p>CINEMA-4D</p>
+                                    <img class="overlay" src="image/cinema.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-title">
+                                <h3>INTERVIEW</h3>
+                                <div class="skill-icon"><img src="image/plus.png" alt=""></div>   
+                            </div>
+                            <div class="item">
+                                <div class="interview">
+                                    <iframe src="https://www.youtube.com/embed/0bEbGEa5JpI?si=P01OrYJpttr_Hlil" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                                <div class="interview-text">
+                                    <p>
+                                        김은진<br>
+                                        인터뷰 영상입니다
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>             
+            </div>
+        </section>
+        <!-- work -->
+        <section id="work">
+            <div class="work-cover">
+                <h3 class="stroke">
+                    WORK&nbsp;&nbsp;&nbsp;&nbsp;<span>WORK</span>&nbsp;&nbsp;&nbsp;&nbsp;WORK&nbsp;&nbsp;&nbsp;&nbsp;<span>WORK</span>&nbsp;&nbsp;&nbsp;&nbsp;WORK&nbsp;&nbsp;&nbsp;&nbsp;<span>WORK</span>&nbsp;&nbsp;&nbsp;&nbsp;WORK&nbsp;&nbsp;&nbsp;&nbsp;<span>WORK</span>&nbsp;&nbsp;&nbsp;&nbsp;WORK&nbsp;&nbsp;&nbsp;&nbsp;<span>WORK</span>&nbsp;&nbsp;&nbsp;&nbsp;WORK&nbsp;&nbsp;&nbsp;&nbsp;<span>WORK</span>&nbsp;&nbsp;&nbsp;&nbsp;WORK&nbsp;&nbsp;&nbsp;&nbsp;<span>WORK</span>
+                </h3>
+            </div>
+            <div class="container">
+                <div class="work-wrap">
+                    <div class="work-collection">
+                        <div class="work-video">                             
+                            <!-- main-screen -->
+                        </div>
+                        <div class="computer"></div>
+                        <div class="video-contents">
+                            <div class="description">
+                                <div class="main-title">
+                                    <h2>TYPOGRAPHY</h2>
+                                </div>
+                                <div class="sub-title">
+                                    <h3>제목</h3>
+                                        <p class="title">불협화음 (Feat. AKMU) (Prod. GRAY)<br>Mudd the student</p>
+                                    <h3>사용툴</h3>
+                                        <p class="tool">After Effect</p>
+                                    <h3 class="day">제작기간</h3>
+                                        <p class="period">1주 소요</p>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <div class="main-title">
+                                    <h2>TYPOGRAPHY</h2>
+                                </div>
+                                <div class="sub-title">
+                                    <h3>제목</h3>
+                                        <p class="title">불협화이트 (Feat. AKMU) (Prod. GRAY)<br>Mudd the student</p>
+                                    <h3>사용툴</h3>
+                                        <p class="tool">After Effect</p>
+                                    <h3 class="day">제작기간</h3>
+                                        <p class="period">2주 소요</p>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <div class="main-title">
+                                    <h2>TYPOGRAPHY</h2>
+                                </div>
+                                <div class="sub-title">
+                                    <h3>제목</h3>
+                                        <p class="title">불협화상 (Feat. AKMU) (Prod. GRAY)<br>Mudd the student</p>
+                                    <h3>사용툴</h3>
+                                        <p class="tool">After Effect</p>
+                                    <h3 class="day">제작기간</h3>
+                                        <p class="period">3주 소요</p>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <div class="main-title">
+                                    <h2>TYPOGRAPHY</h2>
+                                </div>
+                                <div class="sub-title">
+                                    <h3>제목</h3>
+                                        <p class="title">불협화리보 (Feat. AKMU) (Prod. GRAY)<br>Mudd the student</p>
+                                    <h3>사용툴</h3>
+                                        <p class="tool">After Effect</p>
+                                    <h3 class="day">제작기간</h3>
+                                        <p class="period">4주 소요</p>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <div class="main-title">
+                                    <h2>TYPOGRAPHY</h2>
+                                </div>
+                                <div class="sub-title">
+                                    <h3>제목</h3>
+                                        <p class="title">불협화재 (Feat. AKMU) (Prod. GRAY)<br>Mudd the student</p>
+                                    <h3>사용툴</h3>
+                                        <p class="tool">After Effect</p>
+                                    <h3 class="day">제작기간</h3>
+                                        <p class="period">5주 소요</p>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <div class="main-title">
+                                    <h2>TYPOGRAPHY</h2>
+                                </div>
+                                <div class="sub-title">
+                                    <h3>제목</h3>
+                                        <p class="title">불협화성 (Feat. AKMU) (Prod. GRAY)<br>Mudd the student</p>
+                                    <h3>사용툴</h3>
+                                        <p class="tool">After Effect</p>
+                                    <h3 class="day">제작기간</h3>
+                                        <p class="period">6주 소요</p>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <div class="main-title">
+                                    <h2>TYPOGRAPHY</h2>
+                                </div>
+                                <div class="sub-title">
+                                    <h3>제목</h3>
+                                        <p class="title">불협화형 (Feat. AKMU) (Prod. GRAY)<br>Mudd the student</p>
+                                    <h3>사용툴</h3>
+                                        <p class="tool">After Effect</p>
+                                    <h3 class="day">제작기간</h3>
+                                        <p class="period">7주 소요</p>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <div class="main-title">
+                                    <h2>TYPOGRAPHY</h2>
+                                </div>
+                                <div class="sub-title">
+                                    <h3>제목</h3>
+                                        <p class="title">불협화장 (Feat. AKMU) (Prod. GRAY)<br>Mudd the student</p>
+                                    <h3>사용툴</h3>
+                                        <p class="tool">After Effect</p>
+                                    <h3 class="day">제작기간</h3>
+                                        <p class="period">8주 소요</p>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="swiper work-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" data-video="_FG9qZxccgQ">
+                              <img src="image/타이포1.PNG" alt="">
+                            </div>
+                            <div class="swiper-slide" data-video="3CvJKTChsl4">
+                               <img src="image/에스파.PNG" alt="">
+                            </div>
+                            <div class="swiper-slide"  data-video="nFHG0TeBIIs">
+                                <img src="image/비비지.PNG" alt="">
+                            </div>
+                            <div class="swiper-slide" data-video="_FG9qZxccgQ">
+                                <img src="image/타이포1.PNG" alt="">
+                              </div>
+                              <div class="swiper-slide" data-video="3CvJKTChsl4">
+                                 <img src="image/에스파.PNG" alt="">
+                              </div>
+                              <div class="swiper-slide"  data-video="nFHG0TeBIIs">
+                                  <img src="image/비비지.PNG" alt="">
+                              </div>
+                              <div class="swiper-slide" data-video="_FG9qZxccgQ">
+                                <img src="image/타이포1.PNG" alt="">
+                              </div>
+                        </div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>                
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section id="contact">
+            <div class="contact-cover1">
+                <h3 class="contact-title">
+                    CONTACT&nbsp;&nbsp;&nbsp;&nbsp;<span>CONTACT</span>&nbsp;&nbsp;&nbsp;&nbsp;CONTACT&nbsp;&nbsp;&nbsp;&nbsp;<span>CONTACT</span>&nbsp;&nbsp;&nbsp;&nbsp;CONTACT&nbsp;&nbsp;&nbsp;&nbsp;<span>CONTACT</span>&nbsp;&nbsp;&nbsp;&nbsp;CONTACT&nbsp;&nbsp;&nbsp;&nbsp;<span>CONTACT</span>&nbsp;&nbsp;&nbsp;&nbsp;CONTACT&nbsp;&nbsp;&nbsp;&nbsp;<span>CONTACT</span>&nbsp;&nbsp;&nbsp;&nbsp;CONTACT&nbsp;&nbsp;&nbsp;&nbsp;<span>CONTACT</span>&nbsp;&nbsp;&nbsp;&nbsp;CONTACT&nbsp;&nbsp;&nbsp;&nbsp;<span>CONTACT</span>
+                </h3>
+            </div>
+            <div class="contact-cover2">
+                <h3 class="contact-title2">
+                    CONTACT&nbsp;&nbsp;&nbsp;&nbsp;<span>CONTACT</span>&nbsp;&nbsp;&nbsp;&nbsp;CONTACT&nbsp;&nbsp;&nbsp;&nbsp;<span>CONTACT</span>&nbsp;&nbsp;&nbsp;&nbsp;CONTACT&nbsp;&nbsp;&nbsp;&nbsp;<span>CONTACT</span>&nbsp;&nbsp;&nbsp;&nbsp;CONTACT&nbsp;&nbsp;&nbsp;&nbsp;<span>CONTACT</span>&nbsp;&nbsp;&nbsp;&nbsp;CONTACT&nbsp;&nbsp;&nbsp;&nbsp;<span>CONTACT</span>&nbsp;&nbsp;&nbsp;&nbsp;CONTACT&nbsp;&nbsp;&nbsp;&nbsp;<span>CONTACT</span>&nbsp;&nbsp;&nbsp;&nbsp;CONTACT&nbsp;&nbsp;&nbsp;&nbsp;<span>CONTACT</span>
+                </h3>
+            </div>
+            <div class="container">
+                <div class="contact-mail">
+                    <div class="letter">
+                        <div class="letter-box"></div>
+                        <div class="contact-form">
+                            <form action="https://formspree.io/f/xwkdzvlw" method="POST">
+                                <div class="box">
+                                    <p>Name</p>
+                                    <p>Email Adress</p>
+                                </div>
+                                <input type="text" name="Name" class="first" required>
+                                <input type="email" name="Email" class="second" required>
+                                <div class="sub">
+                                    <p>Subject</p>
+                                </div>
+                                <input type="text" name="Subject" class="third" required>
+                                <div class="mes">
+                                    <p>Message</p>
+                                </div>
+                                <textarea name="Message"></textarea>
+                                <input type="submit" value="SEND" class="button">
+                            </form>
+                            <img src="image/편지2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="plane">
+                    <div class="animation">
+                        <img class="airplane" src="image/뱅기.png" alt="">
+                    </div>
+                    <div class="animation2">
+                        <img class="airplane2" src="image/비행기.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="copyright">
+            <p>본 페이지는 상업적 목적이 아닌 개인 포트폴리오 용으로 제작되었습니다. <br>&copy;2023 Kim-eun-jin All Rights Reserved.</br></p>
+        </div>
+    </footer>
+   
+</body>
+</html>
